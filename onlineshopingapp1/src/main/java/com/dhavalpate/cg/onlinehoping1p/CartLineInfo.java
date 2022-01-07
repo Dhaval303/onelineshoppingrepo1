@@ -29,10 +29,10 @@ public class CartLineInfo {
  
     public void setQuantity(int quantity) {
         this.quantity = quantity;
-    }
+    }  */
     
     public double getAmount() {
         return this.productInfo.getPrice() * this.quantity;
-    }    */
+    }    
 
 }
