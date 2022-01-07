@@ -3,6 +3,11 @@ package com.dhavalpate.cg.onlinehoping1p;
 import java.util.ArrayList;
 import java.util.List;
 
+import lombok.Getter;
+import lombok.Setter;
+@Getter
+@Setter
+
 public class CartInfo {
 	  private int orderNum;
 
@@ -10,7 +15,7 @@ public class CartInfo {
 	  private final List<CartLineInfo> cartLines = new ArrayList<CartLineInfo>();
 
 
-	public int getOrderNum() {
+	/*public int getOrderNum() {
 		return orderNum;
 	}
 
@@ -24,7 +29,7 @@ public class CartInfo {
 
 	public void setCustomerInfo(CustomerInfo customerInfo) {
 		this.customerInfo = customerInfo;
-	}
+	}*/
 	  public List<CartLineInfo> getCartLines() {
 	        return this.cartLines;
 	    }

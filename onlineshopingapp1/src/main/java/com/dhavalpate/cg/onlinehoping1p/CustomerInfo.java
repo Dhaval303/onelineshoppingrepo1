@@ -1,5 +1,11 @@
 package com.dhavalpate.cg.onlinehoping1p;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+
 public class CustomerInfo {
 	private String name;
     private String address;
@@ -19,7 +25,7 @@ public class CustomerInfo {
         this.valid = customerForm.isValid();
     }
 
-	public String getName() 
+/*	public String getName() 
 	{
 		return name;
 	}
@@ -67,6 +73,6 @@ public class CustomerInfo {
 	public void setValid(boolean valid)
 	{
 		this.valid = valid;
-	}
+	}  */
 
 }

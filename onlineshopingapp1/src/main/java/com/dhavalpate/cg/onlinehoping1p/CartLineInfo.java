@@ -1,5 +1,11 @@
 package com.dhavalpate.cg.onlinehoping1p;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+
 public class CartLineInfo {
 
     private ProductInfo productInfo;
@@ -17,7 +23,7 @@ public class CartLineInfo {
         this.productInfo = productInfo;
     }
  
-    public int getQuantity() {
+   /* public int getQuantity() {
         return quantity;
     }
  
@@ -27,6 +33,6 @@ public class CartLineInfo {
     
     public double getAmount() {
         return this.productInfo.getPrice() * this.quantity;
-    }
+    }    */
 
 }

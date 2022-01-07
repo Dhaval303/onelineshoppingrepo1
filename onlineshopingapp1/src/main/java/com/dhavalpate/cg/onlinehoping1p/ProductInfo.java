@@ -1,5 +1,11 @@
 package com.dhavalpate.cg.onlinehoping1p;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+
 public class ProductInfo {
 	private String code;
     private String name;
@@ -21,7 +27,7 @@ public class ProductInfo {
         this.price = price;
     }
 
-	public String getCode() {
+/*	public String getCode() {
 		return code;
 	}
 
@@ -43,7 +49,7 @@ public class ProductInfo {
 
 	public void setPrice(double price) {
 		this.price = price;
-	}
+	}  */
     
 
 }

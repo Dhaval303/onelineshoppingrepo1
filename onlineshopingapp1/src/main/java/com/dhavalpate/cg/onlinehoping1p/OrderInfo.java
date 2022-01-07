@@ -3,6 +3,11 @@ package com.dhavalpate.cg.onlinehoping1p;
 import java.util.Date;
 import java.util.List;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class OrderInfo {
 	 private String id;
 	    private Date orderDate;
@@ -32,7 +37,7 @@ public class OrderInfo {
 	        this.customerEmail = customerEmail;
 	        this.customerPhone = customerPhone;
 	    }
-		public String getId() {
+	/*	public String getId() {
 			return id;
 		}
 		public void setId(String id) {
@@ -86,7 +91,7 @@ public class OrderInfo {
 		public void setDetails(List<OrderDetailInfo> details) {
 			this.details = details;
 		}
-	    
-  system.out.println("hello iam manvith")
+	    */
+   
   
 }

@@ -20,10 +20,14 @@ dependencies {
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	runtimeOnly 'org.postgresql:postgresql'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	
+	// https://mvnrepository.com/artifact/org.projectlombok/lombok
+compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.22'
+
+
 }
 
-// https://mvnrepository.com/artifact/org.projectlombok/lombok-maven
-implementation group: 'org.projectlombok', name: 'lombok-maven', version: '1.18.12.0', ext: 'pom'
+
 
 
 test {
